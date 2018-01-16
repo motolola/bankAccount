@@ -18,8 +18,7 @@ public class BankAccountApp {
 		savingAccount.deposit(500);
 		savingAccount.withdraw(200);
 		savingAccount.transfer("22424", 150);
-		
-		//Account savingAccount2 = new SavingAccount("Troy Deeney2");
+
 
 	}
 
