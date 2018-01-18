@@ -34,6 +34,11 @@ public abstract class Account implements IBaseRate {
 		return lastTwoOfSSN+uniqueID+randomNumber;
 	}
 	
+	public void compound() {
+		double accruedInterest = balance * (rate/100);
+		System.out.println("Accrued Interest: £"+ accruedInterest);
+	}
+	
 	public void showInfo() {
 		System.out.println("Name: "+name +
 				" \nAccount Number: "+ accountNumber +

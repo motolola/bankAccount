@@ -15,11 +15,7 @@ public class BankAccountApp {
 		checkingAccount.showInfo();
 		System.out.println("*****************************");
 		savingAccount.showInfo();
-		savingAccount.deposit(500);
-		savingAccount.withdraw(200);
-		savingAccount.transfer("22424", 150);
-
-
+		savingAccount.compound();
 	}
 
 }
